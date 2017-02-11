@@ -49,6 +49,7 @@ TARGET_RECOVERY_FSTAB = $(PLATFORM_COMMON_PATH)/rootdir/fstab.shinano
 # Camera HAL1 hack on 7.x
 TARGET_HAS_LEGACY_CAMERA_HAL1 := true
 
+
 # Wi-Fi definitions for Broadcom solution
 BOARD_WLAN_DEVICE           := bcmdhd
 BOARD_WPA_SUPPLICANT_DRIVER := NL80211
